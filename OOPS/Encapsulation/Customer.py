@@ -23,10 +23,16 @@ Aarav =  Customer()
 Aarav.setName("Aarav")
 Aarav.setEmail("aarav1234@gmail.com")
 Aarav.setPhoneNumber(5715280869)
-print(Aarav.getName())
-print(Aarav.getEmail())
-print(Aarav.getPhoneNumber())
-
+a = int(input("Enter 1 to see name, 2 to see email, and 3 to see phone number:"))
+match(a):
+  case 1:
+    print(Aarav.getName())
+  case 2:
+    print(Aarav.getEmail())
+  case 3:
+    print(Aarav.getPhoneNumber())
+  case _:
+    print("Wrong input")
 
 
   

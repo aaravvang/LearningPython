@@ -11,8 +11,12 @@ class Product:
     self.__name = name
   def setPrice(self, price):
     self.__price = price
+  def getPrice(self):
+    return self.__price
   def setQuantity(self, quantity):
     self.__quantity = quantity
+  def getQuantity(self):
+    return self.__quantity
   def totalCost(self):
     cost = self.__quantity * self.__price
     return cost
@@ -20,6 +24,19 @@ class Product:
 Aarav =  Product()
 Aarav.setPrice(30)
 Aarav.setQuantity(30)
-print(Aarav.totalCost())
+Aarav.setName("Aarav")
+a = int(input("Enter 1 to see the price, 2 to see the quantity, 3 to see the name, and 4 to see the total cost:"))
+match(a):
+  case 1:
+    print(Aarav.getPrice())
+  case 2:
+    print(Aarav.getQuantity())
+  case 3:
+    print(Aarav.getName())
+  case 4:
+    print(Aarav.totalCost())
+  case _:
+    print("kid, are you ok, try again")
+    
 
   
