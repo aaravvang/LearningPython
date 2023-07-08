@@ -1,3 +1,21 @@
+turtle questions
+
+1. make a star
+2. make a maze
+3  make a tree
+4. make a spiral
+5. make a hut and color it
+
+
+
+
+
+
+
+
+
+----------------------------------------------------
+
 1. Create a class called MathOperations with a method called add(). Implement method overloading for the add() method to allow adding two numbers or a list of numbers.
 
 2. Create a class called MathOperations2. Define a method named calculate that can perform addition of two numbers or multiplication of three numbers based on the arguments passed.
