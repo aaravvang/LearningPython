@@ -1,10 +1,9 @@
 turtle questions
 
 1. make a star
-2. make a maze
-3  make a tree
-4. make a spiral
-5. make a hut and color it
+2. make a maze, Also a triangle maze
+3. make a spiral
+4. make a hut and color it
 
 
 
