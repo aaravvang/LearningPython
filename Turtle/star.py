@@ -1,3 +1,5 @@
+# Reference diagram - https://holypython.com/wp-content/uploads/2020/11/star_3_rounds.jpg
+
 import turtle
 x = turtle.Turtle()
 

@@ -1,28 +1,11 @@
-turtle questions
 
-1. make a star
-2. make a maze, Also a triangle maze
-3. make a spiral
-4. make a hut and color it
+Write a simple program that reads a file and encrypts its content by shifting each character by a fixed number (e.g., Caesar cipher) and then saves the encrypted content to a new file.
 
+-------------------------
 
+Guest Book: You're creating a guest book for an event. Write a Python program that allows guests to input their names and comments. Append each guest's name and comment to a file. Ensure that the comments of different guests are separated by a line break.
 
 
+x=ord(a) #ascii value
 
-
-
-
-
-----------------------------------------------------
-
-1. Create a class called MathOperations with a method called add(). Implement method overloading for the add() method to allow adding two numbers or a list of numbers.
-
-2. Create a class called MathOperations2. Define a method named calculate that can perform addition of two numbers or multiplication of three numbers based on the arguments passed.
-
-3. Create a class called Shape with a method called area(). Create subclasses called Rectangle and Circle that override the area() method to calculate and return the area of a rectangle and a circle, respectively.
-
-4. Create a class called Vehicle with a method called drive(). Create subclasses called Car and Motorcycle that override the drive() method to print different driving behaviors for a car and a motorcycle.
-
-5. Create a class called Shape with a method called draw(). Create subclasses called Circle, Square, and Triangle that override the draw() method to draw each shape using different graphical representations. [give it a try, it will be discussed in the upcoming class]
-
-6. Create a class called Animal with a method called eat(). Create subclasses called Lion, Elephant, and Giraffe that override the eat() method to print different eating behaviors for each animal.
+ch=chr(x) #character value

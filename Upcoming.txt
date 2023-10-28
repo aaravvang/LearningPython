@@ -3,3 +3,8 @@
 3. Static Methods
 4. Abstraction
 5. Turtle shapes (NEXT)
+
+
+spotify project
+Data Structures
+Django

@@ -1,0 +1,4 @@
+hulu:aarav
+netflix:aarav
+bank:yesyes
+Laptop:password2234
